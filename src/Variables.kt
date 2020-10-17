@@ -4,7 +4,7 @@ fun main(args: Array<String>) {
     isAwesome = true //variable isAwesome is mutable (declared with 'var')
 
     println("Is " + name + " awesome?")
-    println("The answer is: " + isAwesome)
+    println("The answer is: $isAwesome")
 
     var a = 4
     var b = 3
@@ -17,6 +17,10 @@ fun main(args: Array<String>) {
 
     val aDouble = a.toDouble() //converting variable 'a' to a double
     val aString: String = a.toString() //explicitly setting the type of a variable
+
+    var hero: String
+    hero = "batman"
+    hero = "superman"
 
 
 
